@@ -1,5 +1,4 @@
-[![](https://images.microbadger.com/badges/image/fjudith/samba-join-ad.svg)](https://microbadger.com/images/fjudith/samba-join-ad "Get your own image badge on microbadger.com")
-[![Build Status](https://travis-ci.org/fjudith/docker-samba-join-ad.svg?branch=master)](https://travis-ci.org/fjudith/docker-samba-join-ad)
+[![](https://images.microbadger.com/badges/image/phreakazoid/samba.svg)](https://microbadger.com/images/phreakazoid/samba "Get your own image badge on microbadger.com")
 
 # Introduction
 
@@ -24,7 +23,7 @@ docker run -it --rm --add-host "docker-smb.localdomain.loc docker-smb":<host ip 
 -p 138:138/udp \
 -p 139:139/tcp \
 -p 445:445/tcp \
-fjudith/samba-join-ad
+phreakazoid/samba:latest
 ```
 
 # Reference
