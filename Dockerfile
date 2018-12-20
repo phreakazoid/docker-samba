@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:stable
 
 MAINTAINER Patrick Eichmann <phreakazoid@phreakazoid.com>
 
